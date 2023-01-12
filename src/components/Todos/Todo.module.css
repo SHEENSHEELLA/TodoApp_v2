@@ -8,7 +8,6 @@
   border: 2px solid #555;
   color: #112d49;
   background-color: #fbfef9;
-  user-select: none;
 }
 
 .todoText {
@@ -20,4 +19,39 @@
   font-size: 1.8rem;
   margin-right: 10px;
   color: teal;
+}
+
+.completedTodo {
+  background-color: unset;
+  border-color: gray;
+  color: gray;
+}
+
+.todo.completedTodo .todoIcon,
+.todo.completedTodo .checkIcon,
+.todo.completedTodo .deleteIcon {
+  color: gray;
+}
+
+.checkIcon,
+.deleteIcon {
+  cursor: pointer;
+  color: lightgrey;
+  padding: 0 7px;
+  font-size: 1.8rem;
+  transition: transform 0.3s;
+}
+
+.checkIcon:hover,
+.deleteIcon:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.checkIcon:hover {
+  color: green;
+}
+
+.deleteIcon:hover {
+  color: red;
 }
