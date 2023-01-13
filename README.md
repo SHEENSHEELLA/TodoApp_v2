@@ -1,4 +1,9 @@
-# React Project for the React Course
+# Посмотреть проект => [Deploy Todo App v.2](https://sheensheella.github.io/TodoApp_v2/)
+
+#### React Project version 2
+- удаление и завершение конкретной задачи отдельными кнопками;
+- удаление всех завершенных задач в отдельном блоке (TodosActions);
+- сброс всех задач в отдельном блоке (TodosActions). 
 
 ## Available Scripts
 
